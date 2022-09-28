@@ -56,4 +56,9 @@ public class Car {
         retailPrice = price * 2;
     }
 
+    public String toString() //Overriding the toString()
+    {
+       return "Make: " + make + ", "+ "Model: "+ model + ", " + "M Price: " + price + " Retail Price: " +  retailPrice;
+    }
+
 }
